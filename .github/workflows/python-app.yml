@@ -28,7 +28,7 @@ jobs:
     # Install dependencies
 
     step 3: Install dependencies
-      run:
+    run:
         python -m pip install --upgrade pip
         pip install -r requirments.txt
 
@@ -36,4 +36,4 @@ jobs:
     -name: Run tests
     run: pytest
 
-    
+
